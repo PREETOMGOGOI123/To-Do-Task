@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle at center, #ffff,  #4c8edd);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5em;
+    color: #0e63e2;
+}
+
+.container{
+    width: 50vw;
+    height:auto; 
+    text-align: center; 
+    padding: 40px;
+    background-color: rgb(171, 255, 46, 0.3);
+}
+
+.add-input{
+        margin: 40px auto 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+#date{
+    margin-left: 30px;
+}
+
+.input-block{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+#input-text{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+#btn-addtask{
+    width: 15%;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(248, 130, 33);
+    color: white;
+    border-color: rgb(255, 191, 145);
+}
+
+.display-box{
+    height: auto;
+    background-color:antiquewhite;
+    justify-content: center;
+    background-color:  rgb(98, 151, 230, 0.4);
+    color: #5b687a;;
+    font-size: medium;
+    position: relative;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 1em;
+    background-color: black;
+    color: rgb(248, 130, 33);
+    font-size: medium;
+    font-weight: 700;
+    margin: 40px;
+}
+#btn-recorded{
+    background-color: rgba(94, 230, 94, 0.452);
+    color: green;
+    border-color: rgb(104, 240, 104);
+}
+
+h2{
+    display: block;
+    padding: 1.5em;
+}
+ol{
+    display: block;
+    padding: 0 0 10em 12em;
+}
+
+li{
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(110, 107, 107);   
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <h1>TO-DO-LIST</h1>
+    <main class="container">
+    <div class="add-input">
+        <div class="date-container">
+            <label for="date">Select date</label><input type="date" id="date" required>
+        </div>    
+        <div class="input-block">
+            <input type="text" id="input-text" placeholder="Enter To-Do Task" required>
+            <input type="button" id="btn-addtask" value="+">
+        </div>    
+    </div>
+    <div class="display-box">
+        <h2>Your to do list will pile up in this section.</h2>
+    </div>
+    <button type="submit" id="btn-submit">Click to Submit</button>
+    <button type="button" id="btn-recorded">Recorded Task</button>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
